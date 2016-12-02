@@ -1,5 +1,5 @@
-<font color=SlateBlue  size='10pt'>Budget Calculator</font><br>
-  <form  action = 'Member.php'> 
+﻿<font color=SlateBlue  size='10pt'>Budget Calculator</font><br>
+  <form  action = 'norre.php'> 
   <fieldset style="border: #0044cc  solid;">
 <legend>
 	 <font color=#0044cc  size='5pt'>ผลการคำนวณ</font>
@@ -13,6 +13,7 @@
     
 } 
 </style>
+
 <?php
 
 echo "<body style='background-color:#99ccff'>";
@@ -170,18 +171,19 @@ class Cal{
   	<input type="submit" name="Back" value="Back" style="background: #84e184;" ></div>
      <div align="right" >         
   	<input type="submit" name="Save" value="Save" style="background: #FF00FF;" ></div> 
+    
 </form>	
 <!DOCTYPE html>
 <html>
     <head>
-        <script src="C:/xampp/htdocs/Test/New folder/jquery-1.12.4.min.js"></script>
-	<script src="C:/xampp/htdocs/Test/New folder/canvasjs.min.js"></script>
+        <script src="jquery-1.12.4.min.js"></script>
+	<script src="canvasjs.min.js"></script>
     </head>
  
     <body>
- 
+ 		
         <div id="chartContainer"></div>
-        <script type="text/javascript">
+<script type="text/javascript">
             $(function () {
                 var chart = new CanvasJS.Chart("chartContainer",
                 {
@@ -205,5 +207,5 @@ class Cal{
             });
         </script>
     </body>
- 
+
 </html>

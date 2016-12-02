@@ -1,5 +1,5 @@
- <font color=SlateBlue  size='10pt'>Budget Calculator</font><br>
-  <form  action = 'F.php'> 
+﻿ <font color=SlateBlue  size='10pt'>Budget Calculator</font><br>
+  <form  action = 'nor.php'> 
   <fieldset style="border: #0044cc  solid;">
 <legend>
 	 <font color=#0044cc  size='5pt'>ผลการคำนวณ</font>
@@ -167,8 +167,8 @@ class Cal{
 <!DOCTYPE html>
 <html>
     <head>
-        <script src="C:/xampp/htdocs/Test/New folder/jquery-1.12.4.min.js"></script>
-	<script src="C:/xampp/htdocs/Test/New folder/canvasjs.min.js"></script>
+        <script src="jquery-1.12.4.min.js"></script>
+	<script src="canvasjs.min.js"></script>
     </head>
  
     <body>
